@@ -1,5 +1,6 @@
-# MasterThesis-Optimizing-Uplink-Communication-of-IoT-clients-in-Distributed-Ledger-Technologies
-Optimizing Uplink Communication of IoT clients in Distributed Ledger Technologies
+# Optimizing Uplink Communication of IoT clients in Distributed Ledger Technologies
+
+## Abstract
 
 Distributed Ledger Technology (DLT) or blockchain is recognized as the most assuring distributed and decentralized architecture to assist interaction among a large number of Internet of Things (IoT). The blockchain network consists of set of blockchain nodes (BNs). Resourceconstrained IoT devices act as lightweight clients that can only store the subset of blockchain data and rely on BNs for full information. IoT devices generate a massive amount of data, i.e., uplink traffic and transmit it to BNs as transactions. BNs capacity to handle the requests from light clients will downgrade due to increased load, and consequently BNs will limit the amount of requests processed for each light client or serve the requests slowly. In some cases, BN can completely stop serving the IoT device or just drop the connection. It is challenging
 for the BNs to handle large burst of transactions without affecting the underlying connection. Therefore, the main objective of this thesis is to optimize and reduce the uplink traffic sent from the light clients to BNs.
@@ -7,3 +8,4 @@ for the BNs to handle large burst of transactions without affecting the underlyi
 In this thesis, we propose an aggregation scheme, which aggregates the transactions to reduce the uplink communication traffic of IoT devices. Data and signature aggregation are performed based on the position of the aggregation point. We conduct experiments to demonstrate the effectiveness of aggregation scheme. We consider four possible scenarios depending on location of the aggregation point: no aggregation, on-device aggregation, aggregation at a neighboring node and aggregation at the base station. We measure the performance of the proposed aggregation system using various metrics: communication cost and latency.
 
 The results show the gain and drawbacks of using the aggregation schemes. The evaluation shows the 60-99 % reduction in the amount of information transmitted from IoT light clients to the BN based on used aggregation methods. The comparative study of four possible scenarios summarizes that the latency varies depending on the location of the aggregation point, and the location of aggregation can be selected based on the latency tolerated by the blockchain-IoT use case.
+
